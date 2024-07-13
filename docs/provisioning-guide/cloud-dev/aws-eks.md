@@ -82,7 +82,7 @@ To learn more about kubeconfig click [here](https://kubernetes.io/docs/concepts/
 Another command that VKPR makes available is to destroy the cluster provisioned through the previous steps. With the execution of the `vkpr aws eks destroy` command, the last stage of our repository pipeline will be triggered, which will bring down all the infrastructure previously provisioned.
 
 ```sh
-$ vkpr aws eks deploy
+$ vkpr aws eks destroy
 Formula was successfully built!
 Destroy job started successfully
 ```
